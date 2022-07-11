@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{    
+    background-image: url(/Users/student/Desktop/BowdenPro4/Images/Background/pexels-abhinav-goswami-291528.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+    color: #B21F11;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 60%;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+h1{
+    padding-bottom: 10px;
+    padding-left: 12%;
+    width: 24%;
+    color:darkred;
+}
+
+.logo{
+    position:relative;
+    left: 18%;
+    width: 13%;
+    
+}
+
+nav{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    float: right;
+    right: 5%;
+    bottom: 175px;
+}
