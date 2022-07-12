@@ -9,25 +9,40 @@ body{
     background-size: 100%;
 }
 
-p{
-    color: #B21F11;
-    text-align: center;
+.transbkgrnd{
+    background-color: wheat;
+    opacity: .75;
     margin-left: 5%;
     margin-right: 60%;
-    line-height: 25px;
-    font-size: 25px;
+}
+
+p{
+    /* color: #B21F11; */
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    background-color: bisque;
+    background-image: url(/Users/student/Desktop/BowdenPro4/Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 170px;
+    padding:50px;
+    background-blend-mode: color-dodge;
+    color: darkred;
+    border: 8px solid;
+    border-image: linear-gradient(127deg, darkred, white) 1;
 }
 
 h1{
     padding-bottom: 10px;
-    padding-left: 12%;
-    width: 24%;
+    padding-left: 7%;
     color:darkred;
+    font-size: 50px;
 }
 
 .logo{
     position:relative;
-    left: 18%;
+    left: 16%;
     width: 13%;
     
 }
@@ -35,9 +50,10 @@ h1{
 nav{
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 40px;
     color: white;
     float: right;
     right: 5%;
     bottom: 175px;
+    word-spacing: 20px;
 }
