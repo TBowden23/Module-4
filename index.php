@@ -10,33 +10,35 @@
     <body>
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
-        <h1> 
-            This is a site celebrating rare cakes
-        </h1>
+        
+         <?php
+         $t = date("d");
+         print "<h1>Happy " . $t .", Enjoy every byte!</h1>";
+         ?>
         
         <nav>
             <u>
-                <a href="index.html">
+                <a href="index.php">
                 Home
                 </a>
             </u> 
             <u>
-                <a href="cakes.html">
+                <a href="cakes.php">
                 Cakes
                 </a>
             </u> 
             <u>
-                <a href="history.html">
+                <a href="history.php">
                 History
                 </a>
             </u> 
             <u>
-                <a href="bakers.html">
+                <a href="bakers.php">
                 Bakers
                 </a>
             </u> 
             <u>
-                <a href="Shop.html">
+                <a href="Shop.php">
                 Shop
                 </a>
             </u>
