@@ -7,13 +7,13 @@
         <title>Rare Cakes</title>
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body class="homebg">
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         
          <?php
-         $t = date("d");
-         print "<h1>Happy " . $t .", Enjoy every byte!</h1>";
+         $t = date("l");
+         print "<h1>Crappy " . $t ."? Hope you enjoy every byte!</h1>";
          ?>
         
         <nav>
@@ -29,7 +29,7 @@
             </u> 
             <u>
                 <a href="history.php">
-                History
+                Cupcakes
                 </a>
             </u> 
             <u>
@@ -39,7 +39,7 @@
             </u> 
             <u>
                 <a href="Shop.php">
-                Shop
+                About Us
                 </a>
             </u>
         </nav>
@@ -55,17 +55,13 @@
                 volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
                 integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
                 iaculis urna id.
-                <br>
-
-                Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Volutpat 
-                odio facilisis mauris sit amet massa vitae tortor. Et ligula ullamcorper malesuada 
-                proin libero. Platea dictumst quisque sagittis purus sit amet volutpat consequat. 
-                Nec dui nunc mattis enim ut tellus elementum. Rhoncus est pellentesque elit ullamcorper 
-                dignissim cras tincidunt lobortis. Lorem sed risus ultricies tristique nulla aliquet 
-                enim. Tincidunt ornare massa eget egestas. Quis varius quam quisque id diam vel. 
-        </p>
+            </p>
         </div>
         </div>    
         </figure>
+        <footer>
+            Dat's all Folks
+            <br> &copy; Tremarica LLC
+        </footer>
     </body>
 </html>

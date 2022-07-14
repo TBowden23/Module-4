@@ -7,7 +7,8 @@
         <title>Rare Cakes</title>
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body class="cakesbg">
+        <section>
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         <h1> 
@@ -16,28 +17,28 @@
         
         <nav>
             <u>
-                <a href="index.html">
+                <a href="index.php">
                 Home
                 </a>
             </u> 
             <u>
-                <a href="cakes.html">
+                <a href="cakes.php">
                 Cakes
                 </a>
             </u> 
             <u>
-                <a href="history.html">
-                History
+                <a href="history.php">
+                Cupcakes
                 </a>
             </u> 
             <u>
-                <a href="bakers.html">
+                <a href="bakers.php">
                 Bakers
                 </a>
             </u> 
             <u>
-                <a href="Shop.html">
-                Shop
+                <a href="Shop.php">
+                About Us
                 </a>
             </u>
         </nav>
@@ -52,18 +53,15 @@
                 incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit 
                 volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
                 integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
-                iaculis urna id.
-                <br>
-
-                Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Volutpat 
-                odio facilisis mauris sit amet massa vitae tortor. Et ligula ullamcorper malesuada 
-                proin libero. Platea dictumst quisque sagittis purus sit amet volutpat consequat. 
-                Nec dui nunc mattis enim ut tellus elementum. Rhoncus est pellentesque elit ullamcorper 
-                dignissim cras tincidunt lobortis. Lorem sed risus ultricies tristique nulla aliquet 
-                enim. Tincidunt ornare massa eget egestas. Quis varius quam quisque id diam vel. 
-        </p>
+                iaculis urna id.  
+            </p>
         </div>
+        <img src="../Images/20-layer-chocolate-peanut-butter-cake-for-6-8.608966191ab74b476e851375fd2915ed.jpg">
         </div>    
         </figure>
+        <footer>
+            Dat's all Folks
+            <br> &copy; Tremarica LLC
+        </footer>
     </body>
 </html>
