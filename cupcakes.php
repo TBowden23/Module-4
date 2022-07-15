@@ -7,7 +7,7 @@
         <title>Rare Cakes</title>
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body  class="histbg">
+    <body class="cupbg">
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         <h1> 
@@ -53,6 +53,12 @@
                 volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
                 integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
                 iaculis urna id.
+
+                <?php
+                $name = "Tremar";
+                echo "Hello I'm {$name} and I like Sports";
+                echo "1+2+3+4+5+6+7+8+9+10";
+                ?>
             </p>
         </div>
         </div>    

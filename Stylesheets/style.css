@@ -16,10 +16,23 @@
 }
 
 .histbg{
-    background-image: url(../Images/20-layer-chocolate-peanut-butter-cake-for-6-8.c3eb4a50389817d439d01516eb5bc4b3.jpg);
+    background-image: url(../Images/fJGdG5eUffpW7VApWhPGR7-1920-80.jpg.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.bakebg{
+    background-image: url(../Images/Oasis-Tiramisu-Cheesecake-Product-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cupbg{
+    background-image: url(../Images/JLhd9jjphPVHFFtgYbdepL-1280-80.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 .transbkgrnd{
     background-color: wheat;
@@ -44,6 +57,7 @@ p{
     border: 8px solid;
     border-image: linear-gradient(127deg, darkred, white) 1;
 }
+
  h1{
     padding-bottom: 10px;
     padding-left: 2%;

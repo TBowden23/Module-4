@@ -7,7 +7,7 @@
         <title>Rare Cakes</title>
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body class="histbg">
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         <h1> 
@@ -26,7 +26,7 @@
                 </a>
             </u> 
             <u>
-                <a href="history.php">
+                <a href="cupcakes.php">
                 Cupcakes
                 </a>
             </u> 
