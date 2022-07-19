@@ -9,29 +9,81 @@
     background-size: 100%;
 }
 
+.homebg h1{
+    padding-bottom: 10px;
+    padding-left: 2%;
+    color:darkred;
+    font-size: 43px;
+} 
+
 .cakesbg{
     background-image: url(../Images/20-layer-chocolate-peanut-butter-cake-for-6-8.c3eb4a50389817d439d01516eb5bc4b3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+.cakesbg h1{
+    padding-bottom: 10px;
+    padding-left: 1%;
+    color:rgb(255, 245, 230);
+    font-size: 43px;
+
+}
+
+.cakesbg nav{
+    color:rgb(255, 245, 230);
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    float: right;
+    right: 5%;
+    bottom: 175px;
+    word-spacing: 20px;
+}
+
 .histbg{
     background-image: url(../Images/fJGdG5eUffpW7VApWhPGR7-1920-80.jpg.webp);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%;
+}
+
+.histbg h1{
+    padding-bottom: 10px;
+    padding-left: 2%;
+    color:#443227;
+    font-size: 43px;
+
 }
 
 .bakebg{
-    background-image: url(../Images/Oasis-Tiramisu-Cheesecake-Product-4.jpeg);
+    background-image: url(../Images/Oasis-Tiramisu-Cheesecake-Product-1.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%;
+}
+
+.bakebg h1{
+    padding-bottom: 10px;
+    padding-left: 2%;
+    color:#443227;
+    font-size: 43px;
+
 }
 
 .cupbg{
     background-image: url(../Images/JLhd9jjphPVHFFtgYbdepL-1280-80.jpg.webp);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%
 }
+
+.cupbg h1{
+    padding-bottom: 10px;
+    padding-left: 2%;
+    color:darkred;
+    font-size: 43px;
+} 
 
 
 .transbkgrnd{
@@ -41,7 +93,7 @@
     margin-right: 60%;
 }
 
-p{
+.homebg p{
     /* color: #B21F11; */
     text-align: center;
     line-height: 75px;
@@ -58,18 +110,86 @@ p{
     border-image: linear-gradient(127deg, darkred, white) 1;
 }
 
- h1{
-    padding-bottom: 10px;
-    padding-left: 2%;
-    color:darkred;
-    font-size: 43px;
-} 
+.bakebg p{
+    /* color: #B21F11; */
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    background-color: bisque;
+    background-image: url(../Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 170px;
+    padding:50px;
+    background-blend-mode: color-dodge;
+    color: darkred;
+    border: 8px solid;
+    border-image: linear-gradient(127deg, darkred, white) 1;
+}
 
+.cakesbg p{
+    /* color: #B21F11; */
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    background-color: bisque;
+    background-image: url(../Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 170px;
+    padding:50px;
+    background-blend-mode: color-dodge;
+    color: darkred;
+    border: 8px solid;
+    border-image: linear-gradient(127deg, darkred, white) 1;
+}
+
+.cupbg p{
+    /* color: #B21F11; */
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    background-color: bisque;
+    background-image: url(../Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 170px;
+    padding:50px;
+    background-blend-mode: color-dodge;
+    color: darkred;
+    border: 8px solid;
+    border-image: linear-gradient(127deg, darkred, white) 1;
+}
+
+.histbg p{
+    /* color: #B21F11; */
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    background-color: bisque;
+    background-image: url(../Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 170px;
+    padding:50px;
+    background-blend-mode: color-dodge;
+    color: darkred;
+    border: 8px solid;
+    border-image: linear-gradient(127deg, darkred, white) 1;
+}
 .logo{
     position:relative;
     left: 16%;
     width: 13%;
     margin-top: 30px;
+    
+}
+
+.logo2{
+    position:relative;
+    left: 14%;
+    width: 16%;
+    margin-top: 28px;
     
 }
 

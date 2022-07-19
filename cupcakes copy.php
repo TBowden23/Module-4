@@ -7,7 +7,7 @@
         <title>Rare Cakes</title>
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body class="histbg">
+    <body class="cupbg">
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         <h1> 
@@ -53,18 +53,34 @@
                 volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
                 integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
                 iaculis urna id.
+
+
+
+                <?php
+                    //example to demonstrate star pattern-1
+                    if 
+                        $i (<= "4";)
+                        for($i=0; $i++;) {
+                            for($j=0; $j<1; $j++;)
+                                {
+                                echo " ";
+                                }
+                        }
+                                
+                        echo '<br>';
+
+                    elseif
+                        $i =5;
+                        echo "*"
+                ?>
+
             </p>
         </div>
         </div>    
         </figure>
         <footer>
             Dat's all Folks
-            <br> &copy; 
-            <?php
-                $copyYear = 2022; // Set your website start date
-                $curYear = date('Y'); // Keeps the second year updated
-                echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
-            ?> Copyright Tremarica LLC
+            <br> &copy; Tremarica LLC
         </footer>
     </body>
 </html>

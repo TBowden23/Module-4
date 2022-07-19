@@ -8,44 +8,48 @@
         <link href="Stylesheets/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body class="cakesbg">
-        <section>
-        <figure>
-        <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
-        <h1> 
-            This is a site celebrating rare cakes
-        </h1>
         
-        <nav>
-            <u>
-                <a href="index.php">
-                Home
-                </a>
-            </u> 
-            <u>
-                <a href="cakes.php">
-                Cakes
-                </a>
-            </u> 
-            <u>
-                <a href="cupcakes.php">
-                Cupcakes
-                </a>
-            </u> 
-            <u>
-                <a href="bakers.php">
-                Bakers
-                </a>
-            </u> 
-            <u>
-                <a href="Shop.php">
-                About Us
-                </a>
-            </u>
-        </nav>
+        <section>
+            <figure>
+            <img src="Images/Logo/Screen_Shot_2022-07-19_at_10.42.21_AM-removebg-preview.png" class="logo" alt="logo">
+            <h1 class> 
+                <?php
+                    $t = date("l");
+                    print "Happy " . $t ."! You want to put your name on it?";
+                ?>
+            </h1>
+        
+            <nav>
+                <u>
+                    <a href="index.php">
+                        Home
+                    </a>
+                </u> 
+                <u>
+                    <a href="cakes.php">
+                        Cakes
+                    </a>
+                </u> 
+                <u>
+                    <a href="cupcakes.php">
+                        Cupcakes
+                    </a>
+                </u> 
+                <u>
+                    <a href="bakers.php">
+                        Bakers
+                    </a>
+                </u> 
+                <u>
+                    <a href="Shop.php">
+                        About Us
+                    </a>
+                </u>
+            </nav>
 
-        <div class="homepg">
+            <div class="homepg">
             
-            <br><br>
+                <br><br>
             <div class="transbkgrnd">
             <p>
                 In all seriousness the cake industry has seen extreme innovation over time Lorem 
@@ -56,12 +60,17 @@
                 iaculis urna id.  
             </p>
         </div>
-        <img src="../Images/20-layer-chocolate-peanut-butter-cake-for-6-8.608966191ab74b476e851375fd2915ed.jpg">
+        <img src="../Images/20-layer-chocolate-peanut-butter-cake-for-6-8.608966191ab74b476e851375fd2915ed.jpg" alt="extra cake photo">
         </div>    
         </figure>
         <footer>
             Dat's all Folks
-            <br> &copy; Tremarica LLC
+            <br> &copy; 
+            <?php
+                $copyYear = 2022; // Set your website start date
+                $curYear = date('Y'); // Keeps the second year updated
+                echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+            ?> Copyright Tremarica LLC
         </footer>
     </body>
 </html>

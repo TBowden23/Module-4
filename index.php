@@ -11,10 +11,15 @@
         <figure>
         <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
         
-         <?php
+         
+         <!--
+            Welcome message of the day including rhe current day
+         -->
+            <?php
          $t = date("l");
-         print "<h1>Crappy " . $t ."? Hope you enjoy every byte!</h1>";
-         ?>
+         print "<h1>Crappy " . $t ."? Come and enjoy every byte!</h1>";
+        ?>
+        
         
         <nav>
             <u>
@@ -59,9 +64,15 @@
         </div>
         </div>    
         </figure>
+        
         <footer>
             Dat's all Folks
-            <br> &copy; Tremarica LLC
+            <br> &copy; 
+            <?php
+                $copyYear = 2022; // Set your website start date
+                $curYear = date('Y'); // Keeps the second year updated
+                echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+            ?> Copyright Tremarica LLC
         </footer>
     </body>
 </html>
