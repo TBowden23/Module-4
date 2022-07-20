@@ -208,6 +208,12 @@ nav a{
     color: white;
 }
 
+.cakes{
+    width: 175px;
+    display: block;
+    /* float: left; */
+}
+
 footer{
     font-size: xx-large;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

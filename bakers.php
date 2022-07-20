@@ -9,13 +9,25 @@
     </head>
     <body class="bakebg">
         <figure>
-            <!-- Header section -->
+            <!-- Header section including the nav bar -->
             <section>
             <div class="translogo">
-                <img src="Images/Logo/Screen_Shot_2022-07-19_at_12.29.52_PM-removebg-preview.png" class="logo" alt="logo">
+                <img src="Images/Logo/Screen_Shot_2022-07-19_at_10.42.59_AM-removebg-preview.png" class="logo" alt="logo">
             </div>
             <h1> 
-                   The  
+                <?php
+                    $timezone = "America/New_York";
+                    date_default_timezone_set($timezone);
+                    $hour= date("H");
+                    if ($hour<12 && $hour>=5)
+                        echo "Good Morning, Do you think Pancakes count as cake?";
+                    else if ($hour>=12 && $hour<17)
+                        echo "Good Afternoon, Hope you saved room for dessert!!";
+                    else if ($hour>=17 && $hour<=20)
+                        echo "Good Evening,";
+                    else
+                        echo "Good Night, don't let the bedbugs bite your cake!!";
+                ?> 
             </h1>
         
                 <nav>
@@ -47,6 +59,7 @@
                 </nav>
             </section>
 
+            <section>
             <!-- The meat and Potatoes of the page -->
                 <div class="homepg">
             
@@ -62,14 +75,16 @@
                             iaculis urna id.
                         </p>
                     </div>
-                </div>    
+                </div>
+            </section>    
         </figure>
+
         
         <footer>
             Dat's all Folks
             <br> &copy; 
             <?php
-                $copyYear = 2022; // Set your website start date
+                $copyYear = 2020; // Set your website start date
                 $curYear = date('Y'); // Keeps the second year updated
                 echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
             ?> Copyright Tremarica LLC

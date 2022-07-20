@@ -61,7 +61,7 @@
             Dat's all Folks
             <br> &copy; 
             <?php
-                $copyYear = 2022; // Set your website start date
+                $copyYear = 2020; // Set your website start date
                 $curYear = date('Y'); // Keeps the second year updated
                 echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
             ?> Copyright Tremarica LLC
