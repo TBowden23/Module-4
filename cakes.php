@@ -58,9 +58,9 @@
             <p>
                 Cakes of the week:
 
-                <img src="Images/20-layer-chocolate-peanut-butter-cake-for-6-8.608966191ab74b476e851375fd2915ed.jpg" alt="extra cake photo" class="cakes">
+                <img src="Images/20-layer-chocolate-peanut-butter-cake-for-6-8.608966191ab74b476e851375fd2915ed.jpg" alt="extra cake photo" class="cakes1">
                 <img src="Images/Ginger-Glazed-Lemon-Bundt_EXPS_FBMZ18_229015_D05_15_4b-6.jpeg" alt="extra cake photo" class="cakes">
-                <img src="Images/Rich-Chocolate-Peanut-Butter-Cake_EXPS_THCA19_57688_C02_23_6b-3.jpeg" alt="extra cake photo" class="cakes">
+                <img src="Images/Rich-Chocolate-Peanut-Butter-Cake_EXPS_THCA19_57688_C02_23_6b-3.jpeg" alt="extra cake photo" class="cakes1">
                 <img src="Images/Mama-s-Spice-Cake_EXPS_THD18_1840_E07_26_4b-11.jpeg" alt="extra cake photo" class="cakes">
             </p>
         
