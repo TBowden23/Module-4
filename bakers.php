@@ -65,15 +65,67 @@
             
                     <br>
                     <br>
-                    <div class="transbkgrnd">
-                        <p>
-                            In all seriousness the cake industry has seen extreme innovation over time Lorem 
-                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit 
-                            volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
-                            integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
-                            iaculis urna id.
-                        </p>
+                    <div class="tranbkgrnd">
+                    <p>
+                    Best Bakers:
+
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th class="strt">Name</th>
+                            <th class="strt">History</th>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KEz20oVK0-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </td>
+                            <td>
+                                Paul Hollywood
+                            </td>
+                            <td>
+                            English celebrity chef and television presenter, widely known as a judge on The Great British Bake Off since 2010. Hollywood began his career at his father's bakery as a teenager and went on to serve as head baker at a number of British and international hotels.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="Images/Bakers/images.jpeg" alt="Cakes of the week 2" class="cakes">
+                            </td>
+                            <td>
+                                Nadiya Hussain
+                            </td>
+                            <td>
+                                Nadiya Jamir Hussain MBE is a British television chef, author and television presenter. She rose to fame after winning the sixth series of BBC's The Great British Bake Off in 2015. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="Images/Bakers/1_hEOaSHUkzUC1RjGkGxLLFA.jpeg" alt="Cakes of the week 3" class="cakes">
+                            </td>
+                            <td>
+                                Wu Pao-chun
+
+                            </td>
+                            <td>
+                                Wu Pao-chun is a Taiwanese baker best known for winning the title of Master Baker in the bread category of the 2010 Bakery Masters competition held in Paris.
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="Images/Bakers/download.jpeg" alt="Cakes of the week 4" class="cakes">
+                            </td>
+                            <td>
+                                Nancy Silverton
+                            </td>
+                            <td>
+                                Nancy Silverton is an American chef, baker, and author. The winner of the James Beard Foundation's Outstanding Chef Award in 2014, Silverton is recognized for her role in popularizing sourdough and artisan breads in the United States.
+                            </td>
+                        </tr>
+                    </table>
+                </p>
                     </div>
                 </div>
             </section>    

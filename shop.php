@@ -47,12 +47,35 @@
             <br><br>
             <div class="transbkgrnd">
             <p>
-                In all seriousness the cake industry has seen extreme innovation over time Lorem 
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit 
-                volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
-                integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
-                iaculis urna id.
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname">
+                </form>
+                <form>
+                <p>Choose your favorite Cake/Cupcake:</p>
+
+                <form>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">20 Layer Chocolate Peanut Butter Cake</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Ginger Glazed Lemon Bundt</label><br>
+                    <input type="radio" id="javacript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Rich Chocolate Peanut Butter Cake</label>
+                    <input type="radio" id="htm" name="fav_language" value="HTML">
+                    <label for="html">Mama's Spice Cake</label><br>
+                    <input type="radio" id="cs" name="fav_language" value="CSS">
+                    <label for="css">Autumn Apple Crumb Cupcakes</label><br>
+                    <input type="radio" id="jaascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Strawberry Lemon-Lime Cupcakes</label>
+                    <input type="radio" id="ss" name="fav_language" value="CSS">
+                    <label for="css">Strawberry Cream Cheese Cupcakes</label><br>
+                    <input type="radio" id="avascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Bailey's Irish Cream Coffe Cupcakes</label>
+                    
+                </form>
+                </form>
             </p>
         </div>
         </div>    

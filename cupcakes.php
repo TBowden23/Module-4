@@ -9,7 +9,7 @@
     </head>
     <body class="cupbg">
         <figure>
-        <img src="Images/Logo/Screen_Shot_2022-07-11_at_1.30.58_PM-removebg-preview.png" class="logo" alt="logo">
+        <img src="Images/Logo/Screen_Shot_2022-07-19_at_10.42.21_AM-removebg-preview.png" class="logo" alt="logo">
         <h1> 
             <?php
                 $t = date("l");
@@ -48,15 +48,66 @@
         <div class="homepg">
             
             <br><br>
-            <div class="transbkgrnd">
+            <div class="tranbkgrnd">
             <p>
-                In all seriousness the cake industry has seen extreme innovation over time Lorem 
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit 
-                volutpat maecenas volutpat. Et malesuada fames ac turpis egestas. Ultricies 
-                integer quis auctor elit sed vulputate mi. Sit amet nulla facilisi morbi tempus 
-                iaculis urna id
-            </p>
+                    Cupcakes of the week:
+
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th class="strt">Cupcake name</th>
+                            <th class="strt">Description of Cupcake</th>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="Images/jJJGnfR7nSxh3YZ2tdj7aT-1280-80.jpg.webp" alt="Cakes of the week 1" class="cakes">
+                            </td>
+                            <td>
+                                Autumn Apple Crumb Cupcakes
+                            </td>
+                            <td>
+                            The cupcake sponge is made with brown sugar and cinnamon, they're filled with spiced stewed apples, topped with sweet cinnamon buttercream, more delicious stewed apples, and filling a crunchy crumble topping!
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="Images/NM2nj4PBYvhihUmyVZd6BJ-1280-80.jpg.webp" alt="Cakes of the week 2" class="cakes">
+                            </td>
+                            <td>
+                                Strawberry Lemon-Lime Cupcakes
+                            </td>
+                            <td>
+                            Perfect for summer, with a tangy lime cupcake base and sweet strawberry frosting they are sure to be loved by all. A family-friendly, non-alcoholic alternative to strawberry margarita cupcakes!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="Images/JLhd9jjphPVHFFtgYbdepL-1280-80.jpg.webp" alt="Cakes of the week 3" class="cakes">
+                            </td>
+                            <td>
+                                Strawberry Cream Cheese Cupcakes
+                            </td>
+                            <td>
+                            Bursting with strawberry flavor from puree in BOTH the cake and the frosting, my Strawberry Cupcakes recipe with Strawberry Cream Cheese Frosting is your new favorite sweet treat.
+                            </td>
+
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <img src="Images/Screen Shot 2022-07-20 at 2.15.19 PM.png" alt="Cakes of the week 4" class="cakes">
+                            </td>
+                            <td>
+                                Bailey's Irish Cream Coffe Cupcakes
+                            </td>
+                            <td>
+                            Baileys Irish Cream and coffee are a classic and delicious pairing, so I used both to produce an unforgettable cupcake flavor. These Baileys and coffee cupcakes are adapted from my vanilla cupcakes and are made with Baileys, strong black coffee, and a touch of espresso powder. If you enjoy the popular Irish cream liqueur, you’ll appreciate this fun dessert!
+                            </td>
+                        </tr>
+                    </table>
+                </p>
         </div>
         </div>    
         </figure>
